@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | TimaBeauty. Hair Salon</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+    <!-- AOS CSS -->
+    <link
+        href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+        rel="stylesheet"
+    >
+    <!-- Gallery CSS -->
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<!-- =========================================
+     HEADER
+========================================= -->
+
+<header data-aos="fade-down" data-aos-duration="800">
+
+    <a href="index.html" class="logo">
+        <i class="fa-solid fa-crown"></i>
+        TimaBeauty
+        <small>HAIR SALON</small>
+
+    </a>
+    <nav id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+    <a href="contact.html" class="header-btn">
+        <i class="fa-regular fa-calendar"></i>
+        BOOK APPOINTMENT
+    </a>
+    <div class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</header>
+<!--  HERO -->
+
+<section class="gallery-hero">
+    <div
+        class="hero-content"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+    >
+        <span>OUR GALLERY</span>
+        <h1>
+            Styles That
+            <em>Speak.</em>
+        </h1>
+        <p>
+            Explore some of our favorite hairstyles,
+            transformations and beautiful client looks.
+        </p>
+    </div>
+</section>
+<!-- GALLERY INTRO -->
+
+<section class="gallery-intro">
+    <div
+        class="section-heading"
+        data-aos="fade-up"
+        data-aos-duration="900"
+    >
+
+        <span>OUR WORK</span>
+
+        <h2>
+            Beauty In Every
+            <em>Detail.</em>
+        </h2>
+
+        <p>
+            From elegant braids to flawless wigs and
+            natural hairstyles, discover the work we
+            create for our clients.
+        </p>
+
+    </div>
+
+
+    <!-- FILTER BUTTONS -->
+
+    <div
+        class="filter-buttons"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="800"
+    >
+
+        <button
+            class="filter-btn active"
+            data-filter="all"
+        >
+            All
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="braiding"
+        >
+            Braiding
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="wig"
+        >
+            Wigs
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="natural"
+        >
+            Natural Hair
+        </button>
+
+        <button
+            class="filter-btn"
+            data-filter="styling"
+        >
+            Styling
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     GALLERY
+========================================= -->
+
+<section class="gallery-section">
+
+    <div class="gallery-grid">
+
+
+        <!-- IMAGE 1 -->
+
+        <div
+            class="gallery-item tall"
+            data-category="braiding"
+            data-aos="fade-up"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/one1.jpg"
+                alt="Beautiful braided hairstyle"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>BRAIDING</span>
+
+                    <h3>Knotless Braids</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 2 -->
+
+        <div
+            class="gallery-item"
+            data-category="wig"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/wig1 (2).jpg"
+                alt="Wig styling"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>WIGS</span>
+
+                    <h3>Silky Straight</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 3 -->
+
+        <div
+            class="gallery-item"
+            data-category="natural"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/Naturality.jpg"
+                alt="Natural curly hair"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>NATURAL HAIR</span>
+
+                    <h3>Natural Curls</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 4 -->
+
+        <div
+            class="gallery-item wide"
+            data-category="styling"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/stylinghands.jpg"
+                alt="Elegant hairstyle"
+            >
+
+            <div class="gallery-overlay">
+                <div>
+                    <span>STYLING</span>
+                    <h3>Elegant Styling</h3>
+                </div>
+                <button class="view-image">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- IMAGE 5 -->
+
+        <div
+            class="gallery-item"
+            data-category="braiding"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+        >
+
+            <img
+               src="Img/conwrow.jpg"
+                alt="Cornrow hairstyle"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>BRAIDING</span>
+
+                    <h3>Classic Cornrows</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 6 -->
+
+        <div
+            class="gallery-item"
+            data-category="wig"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/wig1 (1).jpg"
+                alt="Beautiful wig"
+            >
+
+            <div class="gallery-overlay">
+                <div>
+                    <span>WIGS</span>
+                    <h3>Luxury Wig</h3>
+                </div>
+                <button class="view-image">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+
+
+        <!-- IMAGE 7 -->
+
+        <div
+            class="gallery-item"
+            data-category="natural"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/Twistouts with side cornrows.jfif"
+                alt="Natural hairstyle"
+            >
+
+            <div class="gallery-overlay">
+                <div>
+                    <span>NATURAL HAIR</span>
+                    <h3>Defined Texture</h3>
+                </div>
+                <button class="view-image">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- IMAGE 8 -->
+
+        <div
+            class="gallery-item tall"
+            data-category="styling"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/stylinghead.jpg"
+                alt="Special occasion hairstyle"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>STYLING</span>
+
+                    <h3>Special Occasion</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 9 -->
+
+        <div
+            class="gallery-item"
+            data-category="braiding"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/FOUR.jpg"
+                alt="Protective braids"
+            >
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <span>BRAIDING</span>
+
+                    <h3>Protective Style</h3>
+
+                </div>
+
+                <button class="view-image">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 10 -->
+
+        <div
+            class="gallery-item"
+            data-category="natural"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-duration="800"
+        >
+
+            <img
+            src="Img/naturalhairs.jpg"
+                alt="Natural hair look"
+            >
+
+            <div class="gallery-overlay">
+                <div>
+                    <span>NATURAL HAIR</span>
+
+                    <h3>Natural Beauty</h3>
+                </div>
+                <button class="view-image">
+                    <i class="fa-solid fa-expand"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     LIGHTBOX
+========================================= -->
+
+<div class="lightbox" id="lightbox">
+
+    <button
+        class="lightbox-close"
+        id="lightboxClose"
+    >
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+
+    <button
+        class="lightbox-prev"
+        id="lightboxPrev"
+    >
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+
+    <img
+        id="lightboxImage"
+        src=""
+        alt="Gallery preview"
+    >
+
+
+    <button
+        class="lightbox-next"
+        id="lightboxNext"
+    >
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
+</div>
+
+
+
+<!-- =========================================
+     CTA
+========================================= -->
+
+<section
+    class="gallery-cta"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+>
+
+    <div>
+
+        <span>LOVE WHAT YOU SEE?</span>
+
+        <h2>
+            Your Next Look Could Be Here.
+        </h2>
+
+        <p>
+            Let's create a hairstyle that makes you
+            feel confident and beautiful.
+        </p>
+
+        <a
+            href="contact.html"
+            class="cta-btn"
+        >
+            BOOK AN APPOINTMENT
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer
+    data-aos="fade-up"
+    data-aos-duration="900"
+>
+
+    <div class="footer-grid">
+
+
+        <div class="footer-about">
+            <div class="footer-logo">
+                TIMABEAUTY.
+            </div>
+            <p>
+                Professional hairstyling, beautiful
+                results and confidence made just for you.
+            </p>
+        </div>
+        <div>
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="service.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div>
+            <h4>SERVICES</h4>
+            <ul>
+                <li>
+                    <a href="services.html">
+                        Braiding
+                    </a>
+                </li>
+                <li>
+                    <a href="services.html">
+                        Wig Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Natural Hair
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Hair Treatment
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        <div>
+            <h4>CONTACT</h4>
+            <ul>
+                <li>
+                    <a href="tel:+234806011539">
+                        +234 806 011 5395
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:timabeauty7@gmail.com">
+                        timabeauty7@gmail.com
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Lagos, Nigeria
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="footer-bottom">
+        <p>
+            © 2026 TimaBeauty. Hair Salon.
+            All Rights Reserved.
+        </p>
+        <div class="footer-socials">
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<!--   AOS JS -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Gallery JS -->
+<script src="gallery.js"></script>
+
+<script>
+    AOS.init({
+        duration: 800,
+        easing: 'ease-out',
+        once: true,
+        offset: 100
+    });
+</script>
+
+
+</body>
+</html>
+
